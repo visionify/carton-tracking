@@ -72,3 +72,11 @@ $ python track.py --source 0 --strong-sort-weights osnet_x0_25_market1501.pt
                                                    osnet_x1_0_msmt17.pt
                                                    ...
 ```
+To run the inference for a video file
+
+```bash
+
+
+python track.py --source video2.mp4 --yolo-weights weights/cardboard.pt --img 640  --strong-sort-weights osnet_x0_25_msmt17.pt --save-vid
+
+```
